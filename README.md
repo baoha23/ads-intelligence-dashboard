@@ -1,5 +1,10 @@
 # AI-powered Ads Intelligence Dashboard
 
+[![CI](https://github.com/baoha23/ads-intelligence-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/baoha23/ads-intelligence-dashboard/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node 22](https://img.shields.io/badge/node-22-brightgreen)](https://nodejs.org)
+[![TypeScript](https://img.shields.io/badge/typescript-5.7-blue)](https://www.typescriptlang.org)
+
 Full-stack ads performance analytics dashboard with a deterministic metrics backend and an AI assistant that explains prepared analytics context in Vietnamese or English.
 
 ## Tech stack
@@ -124,4 +129,9 @@ This prevents the model from inventing numbers, querying raw data, or hallucinat
 
 ## License
 
-MIT
+[MIT](LICENSE)
+
+## Documentation
+
+- [ARCHITECTURE.md](ARCHITECTURE.md) — system overview, AI 2-layer design, data model
+- [ads-intelligence-dashboard-plan.md](ads-intelligence-dashboard-plan.md) — original 6-week build plan
