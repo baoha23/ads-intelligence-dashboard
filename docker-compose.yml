@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: ads-intelligence-postgres-dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ads_intelligence_dev
+      POSTGRES_USER: ads_dev
+      POSTGRES_PASSWORD: ads_dev_password
+    ports:
+      - "55432:5432"
+    volumes:
+      - ads_intelligence_pgdata_dev:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ads_dev -d ads_intelligence_dev"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  ads_intelligence_pgdata_dev:
