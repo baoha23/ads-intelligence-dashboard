@@ -7,6 +7,28 @@
 
 Full-stack ads performance analytics dashboard with a deterministic metrics backend and an AI assistant that explains prepared analytics context in Vietnamese or English.
 
+## Screenshots
+
+### Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+
+KPI overview, revenue vs cost trend, anomaly detection panel, and top campaigns table.
+
+### Campaigns
+![Campaigns](docs/screenshots/campaigns.png)
+
+List with filters, drilldown to daily records, sample data generation, and cascade delete.
+
+### Reports
+![Reports](docs/screenshots/reports.png)
+
+Weekly report with top campaigns, revenue by ad type, and anomaly signals.
+
+### AI Assistant
+![AI Assistant](docs/screenshots/ai-assistant.png)
+
+Natural language queries in Vietnamese or English, with MiniMax integration and local fallback.
+
 ## Tech stack
 
 | Layer | Tech |
