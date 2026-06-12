@@ -156,4 +156,3 @@ This prevents the model from inventing numbers, querying raw data, or hallucinat
 ## Documentation
 
 - [ARCHITECTURE.md](ARCHITECTURE.md) — system overview, AI 2-layer design, data model
-- [ads-intelligence-dashboard-plan.md](ads-intelligence-dashboard-plan.md) — original 6-week build plan

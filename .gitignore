@@ -46,3 +46,4 @@ backend/prisma/migrations/dev/
 # Misc
 .cache/
 .parcel-cache/
+*-plan.md
